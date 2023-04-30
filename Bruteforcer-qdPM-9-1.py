@@ -74,7 +74,7 @@ def main(hostname, usernames,passwords):
     print('Finished!')
 
 if __name__ == ("__main__"):
-    parser = ArgumentParser(description='BruteForcer - qdmp 9.1')
+    parser = ArgumentParser(description='BruteForcer - qdPM 9.1')
     parser.add_argument('-url', '--host', dest='hostname', help='Project URL (the full url to the login page)')
     parser.add_argument('-u', '--email', dest='usernames', help='List of possible usernames (email addresses)')
     parser.add_argument('-p', '--password', dest='passwords', help='List of possible passwords')
