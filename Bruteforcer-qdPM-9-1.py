@@ -26,7 +26,7 @@ def banner():
     '''
     print(poweredby)
 
-def main(hostname, usernames,passwords):
+def main(hostname, usernames, passwords):
     URL = hostname + '/index.php/login'
     usernames_file = usernames
     passwords_file = passwords
